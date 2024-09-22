@@ -2,9 +2,7 @@
 
 Neural Networks as the name suggest is network of neurons. This structure actually resembles the network os neurons in brain. Neurons are predictors, they map an input X to an output Y. The output of one neuron is input for the next.
 
-![Deep Neural Network](https://github.com/jpuri/deep-learning/blob/main/img/neural_network.png?raw=true)
-
-<img src="https://github.com/jpuri/deep-learning/blob/main/img/neural_network.png?raw=true" width="200px" alt="Deep Neural Network">
+<img src="https://github.com/jpuri/deep-learning/blob/main/img/neural_network.png?raw=true" width="400px" alt="Deep Neural Network">
 
 Neural networks have multiple layers of neurons comprising of an input, output and hidden layers in the middle. Each layer can be imagined as a stack of neurons placed on top of each other.
 
