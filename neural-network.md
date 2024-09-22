@@ -4,6 +4,8 @@ Neural Networks as the name suggest is network of neurons. This structure actual
 
 ![Deep Neural Network](https://github.com/jpuri/deep-learning/blob/main/img/neural_network.png?raw=true)
 
+<img src="https://github.com/jpuri/deep-learning/blob/main/img/neural_network.png?raw=true" width="200px" alt="Deep Neural Network">
+
 Neural networks have multiple layers of neurons comprising of an input, output and hidden layers in the middle. Each layer can be imagined as a stack of neurons placed on top of each other.
 
 # Liner Regression Model of Neurons
@@ -21,7 +23,20 @@ Thus each neuron has:
 3. Bias `b`
 4. Output `Y`
 
-The weight helps to determine the importance of the input parameter. You can imagine Neural Network as a mesh of these Linear Regression Models where output of one is input for the next.
+The weight helps to determine the importance of the input parameter. You can imagine Neural Network as a mesh of these Linear Regression Models where output of one is input for the next. Additionally in Neural Network an activation function is applied to the output of Linear Regression Model.
+
+# Activation Function
+
+Activation functions transform the input signal of a node in a neural network into an output signal that is then passed on to the next layer. Activation functions introduce non-linearities, allowing neural networks to learn highly complex mappings between inputs and outputs. Choosing the right activation function is crucial for training neural networks that generalize well and provide accurate predictions.
+
+Types of Activation Functions
+Neural networks leverage various types of activation functions, each activation function has its own unique properties and is suitable for certain use cases. 
+
+    - Linear activation
+    - Sigmoid activation
+    - Tanh (hyperbolic tangent) activation
+    - ReLU (rectified linear unit) activation
+    - Softmax activation
 
 # Deep Learning
 
